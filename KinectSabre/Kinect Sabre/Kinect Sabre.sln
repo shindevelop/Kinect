@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectSabre", "KinectSabre.csproj", "{DBE03598-D665-47FD-9457-61CAB5E6C9B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectSabre.Render", "..\KinectSabre.Render\KinectSabre.Render\KinectSabre.Render.csproj", "{EE3843CD-2496-4388-B7D7-C4B47D4E0F36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectSabre.RenderContent", "..\KinectSabre.Render\KinectSabre.RenderContent\KinectSabre.RenderContent.contentproj", "{C1D445B5-893A-44F3-A7E6-57E68037A616}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinect.Toolkit", "..\Kinect.Toolkit\Kinect.Toolkit.csproj", "{2C84CE43-CDAB-4541-A55A-7F849E8AC247}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://mixer.dyndns.ws:8080/tfs/defaultcollection
+		SccProjectUniqueName0 = ..\\Kinect.Toolkit\\Kinect.Toolkit.csproj
+		SccProjectName0 = ../Kinect.Toolkit
+		SccLocalPath0 = ..\\Kinect.Toolkit
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = KinectSabre.csproj
+		SccLocalPath2 = .
+		SccProjectUniqueName3 = ..\\KinectSabre.Render\\KinectSabre.Render\\KinectSabre.Render.csproj
+		SccProjectName3 = ../KinectSabre.Render/KinectSabre.Render
+		SccLocalPath3 = ..\\KinectSabre.Render\\KinectSabre.Render
+		SccProjectUniqueName4 = ..\\KinectSabre.Render\\KinectSabre.RenderContent\\KinectSabre.RenderContent.contentproj
+		SccProjectName4 = ../KinectSabre.Render/KinectSabre.RenderContent
+		SccLocalPath4 = ..\\KinectSabre.Render\\KinectSabre.RenderContent
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBE03598-D665-47FD-9457-61CAB5E6C9B9}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{DBE03598-D665-47FD-9457-61CAB5E6C9B9}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{DBE03598-D665-47FD-9457-61CAB5E6C9B9}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{DBE03598-D665-47FD-9457-61CAB5E6C9B9}.Debug|x86.ActiveCfg = Debug|x86
+		{DBE03598-D665-47FD-9457-61CAB5E6C9B9}.Debug|x86.Build.0 = Debug|x86
+		{DBE03598-D665-47FD-9457-61CAB5E6C9B9}.Release|Any CPU.ActiveCfg = Release|x86
+		{DBE03598-D665-47FD-9457-61CAB5E6C9B9}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{DBE03598-D665-47FD-9457-61CAB5E6C9B9}.Release|Mixed Platforms.Build.0 = Release|x86
+		{DBE03598-D665-47FD-9457-61CAB5E6C9B9}.Release|x86.ActiveCfg = Release|x86
+		{DBE03598-D665-47FD-9457-61CAB5E6C9B9}.Release|x86.Build.0 = Release|x86
+		{EE3843CD-2496-4388-B7D7-C4B47D4E0F36}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{EE3843CD-2496-4388-B7D7-C4B47D4E0F36}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{EE3843CD-2496-4388-B7D7-C4B47D4E0F36}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{EE3843CD-2496-4388-B7D7-C4B47D4E0F36}.Debug|x86.ActiveCfg = Debug|x86
+		{EE3843CD-2496-4388-B7D7-C4B47D4E0F36}.Debug|x86.Build.0 = Debug|x86
+		{EE3843CD-2496-4388-B7D7-C4B47D4E0F36}.Release|Any CPU.ActiveCfg = Release|x86
+		{EE3843CD-2496-4388-B7D7-C4B47D4E0F36}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{EE3843CD-2496-4388-B7D7-C4B47D4E0F36}.Release|Mixed Platforms.Build.0 = Release|x86
+		{EE3843CD-2496-4388-B7D7-C4B47D4E0F36}.Release|x86.ActiveCfg = Release|x86
+		{EE3843CD-2496-4388-B7D7-C4B47D4E0F36}.Release|x86.Build.0 = Release|x86
+		{C1D445B5-893A-44F3-A7E6-57E68037A616}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{C1D445B5-893A-44F3-A7E6-57E68037A616}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{C1D445B5-893A-44F3-A7E6-57E68037A616}.Debug|x86.ActiveCfg = Debug|x86
+		{C1D445B5-893A-44F3-A7E6-57E68037A616}.Release|Any CPU.ActiveCfg = Release|x86
+		{C1D445B5-893A-44F3-A7E6-57E68037A616}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{C1D445B5-893A-44F3-A7E6-57E68037A616}.Release|x86.ActiveCfg = Release|x86
+		{2C84CE43-CDAB-4541-A55A-7F849E8AC247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C84CE43-CDAB-4541-A55A-7F849E8AC247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C84CE43-CDAB-4541-A55A-7F849E8AC247}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{2C84CE43-CDAB-4541-A55A-7F849E8AC247}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{2C84CE43-CDAB-4541-A55A-7F849E8AC247}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2C84CE43-CDAB-4541-A55A-7F849E8AC247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C84CE43-CDAB-4541-A55A-7F849E8AC247}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C84CE43-CDAB-4541-A55A-7F849E8AC247}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2C84CE43-CDAB-4541-A55A-7F849E8AC247}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{2C84CE43-CDAB-4541-A55A-7F849E8AC247}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
